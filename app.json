@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Nitrogen Estimator",
+    "slug": "nitrogen-estimator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.khalil.fyp.NitrogenEstimator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "assets": [
+        "./Roboto/Roboto-Black.ttf"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ce6de710-cdd0-4cd5-8ee7-506bc1d85972"
+      }
+    }
+  }
+}
